@@ -1,0 +1,144 @@
+body
+{
+   width: 800px;
+   margin: auto; /* Pour centrer notre page */
+   margin-top: 20px; /* Pour éviter de coller avec le haut de la fenêtre du navigateur. */
+   margin-bottom: 20px;    /* Idem pour le bas du navigateur */
+   background-image: url("Pictures/Background1.png");
+   background-repeat:repeat-x;
+}
+
+h1{
+color: #00008B; /* darkblue */
+font-family: palatino, serif;
+}
+
+h2{
+color: navy;
+}
+
+p{
+color: black;
+font-family: calibri, georgia, serif;
+font-size: medium;
+text-align: justify;
+}
+
+table{
+font-family: calibri, georgia, serif;
+}
+
+a img{
+border: none;
+}
+
+img.bottom{
+vertical-align:text-bottom
+}
+img.middle{
+vertical-align:middle
+}
+
+/* -------------------------------- */
+/* Table for Frame at the Top */
+/* -------------------------------- */
+table.topFrame{
+background-color: white;
+width: 800px;
+border: none;
+border-spacing: 10px;
+padding:0;
+margin: auto;
+}
+
+
+/* -------------------------------- */
+/* Table for Buttons Bar at the top */
+/* -------------------------------- */
+table.bar{
+font-family: calibri, georgia, serif;
+font-weight: bold;
+text-align: center;
+background-color: white;
+width: 800px;
+border: none;
+border-spacing: 1px;
+margin: auto;
+}
+
+td.bar{
+border-collapse: separate;
+border-style: outset;
+border-color: navy;
+padding: 0;
+}
+
+td.barSelected{
+border-collapse: collapse;
+border-style: outset;
+border-color: navy;
+background-color: navy;
+padding: 0;
+}
+
+td.barEmpty{
+border-top:none;
+border-right:none;
+border-left:none;
+border-bottom:thin solid navy;
+}
+
+a.bar{
+text-decoration:none;
+color: navy;
+}
+
+a.barSelected{
+text-decoration:none;
+color: white;
+}
+
+/* -------------------------------- */
+/* Table for Text Below Button Bar  */
+/* -------------------------------- */
+
+table.page{
+font-family: calibri, georgia, serif;
+width: 800px;
+background-color: white;
+/*background:url("Pictures/LightBlueBackground.png") repeat-x;*/
+border: thin solid navy;
+border-top: none;
+padding: 15px;
+margin: auto;
+}
+
+ul.PBcircle
+{
+list-style-image: url(./Pictures/PowderBlueCircle.png);
+list-style-type: circle;
+}
+
+a.publi{
+text-decoration:none;
+font-weight: bold;
+color: #4169E1;
+}
+
+a.publi:hover{
+text-decoration:none;
+font-weight: bold;
+color: navy;
+}
+
+/* -------------------------------- */
+/* Table for Frame at the bottom */
+/* -------------------------------- */
+table.bottomFrame{
+background-color: white;
+width: 800px;
+border: none;
+border-spacing: 0px;
+padding:0;
+margin: auto;
+}
